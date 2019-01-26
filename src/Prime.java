@@ -4,14 +4,10 @@
 public class Prime {
     public static void main(String args[]) {
         int num = 13;
-        if (isPrime(num)) {
-            System.out.println(num + "is Prime");
-        } else {
-            System.out.println(num + "is Not Prime");
-        }
+        checkPrime(num);
     }
 
-    public static Boolean isPrime(int num) {
-        return false;
+    public static void checkPrime(int num) {
+        
     }
 }
